@@ -1,0 +1,33 @@
+{
+  "name": "@sigma/rnd-by-sigma",
+  "version": "1.0.0",
+  "description": "RnD By Sigma Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundler exec jekyll serve",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SigmaITC/rnd-by-sigma.git"
+  },
+  "keywords": [
+    "rnd"
+  ],
+  "author": "Sigma IT Consulting",
+  "contributors": [
+    "Chris Sundberg <chris.sundberg@sigma.se>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/SigmaITC/rnd-by-sigma/issues"
+  },
+  "homepage": "https://sigmaitc.github.io/rnd-by-sigma",
+  "engines": {
+    "node": ">=6.3.0"
+  },
+  "dependencies": {
+      "@sigma/github-kit": "git+http://github.com/SigmaITC/sigma-github-kit.git"
+  }
+}

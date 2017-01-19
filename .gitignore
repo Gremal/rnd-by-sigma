@@ -1,0 +1,17 @@
+# IDE/Editors
+.idea/*
+*.iml
+tmp/*
+
+# Bower
+bower_components/
+
+# Node.js
+node_modules/*
+!node_modules/@sigma/github-kit
+npm-debug.log
+
+# Other
+.DS_Store
+config.codekit
+**/*.suo

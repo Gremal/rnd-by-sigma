@@ -1,0 +1,6 @@
+{% for category in site.data.categories %}
+    <h2 class="category-title">{{ category.title }}</h2>
+    <p class="category-body">{{ category.description }}</p>
+
+    {% include skills.html categories=category.title %}
+{% endfor %}

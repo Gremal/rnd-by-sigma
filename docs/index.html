@@ -1,0 +1,75 @@
+---
+title: RnD by Sigma by Sigma IT Consulting
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="ttp://sigmaitc.github.io/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="ttp://sigmaitc.github.io/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="ttp://sigmaitc.github.io/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="ttp://sigmaitc.github.io/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="ttp://sigmaitc.github.io/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="ttp://sigmaitc.github.io/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="ttp://sigmaitc.github.io/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="ttp://sigmaitc.github.io/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="ttp://sigmaitc.github.io/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="ttp://sigmaitc.github.io/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="ttp://sigmaitc.github.io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="ttp://sigmaitc.github.io/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="ttp://sigmaitc.github.io/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#333333">
+        <meta name="msapplication-TileImage" content="ttp://sigmaitc.github.io/ms-icon-144x144.png">
+        <meta name="theme-color" content="#333333">
+
+        <title>{{ page.title }}</title>
+
+        <link href="http://sigmaitc.github.io/css/normalize.css" rel="stylesheet" media="all"/>
+        <link href="http://sigmaitc.github.io/css/main.css" rel="stylesheet" media="all"/>
+
+        <!--[if lt IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        {% include header.html %}
+
+        <main id="main-content" class="bg-white" role="main">
+            <div class="row">
+                <div class="small-12 columns mt3 mb3">
+                    <h1>Front End by Sigma</h1>
+
+                    <ul class="list-reset list-inline mb2">
+                        <li><a href="https://github.com/SigmaITC/front-end-by-sigma" id="view-on-github" class="waves-effect waves-light btn"><span>View on GitHub</span></a></li>
+                    </ul>
+
+                    <section class="mb3">
+                        <h2>Förord</h2>
+                        <p>Den här guiden är tänkt som ett hjälpmedel att snabbt hitta mattnyttigt information för att bli en kompetent front end utvecklare på kortare tid. Upplägget bygger på ett antal nivåer med avgränsat och prioriterat innehåll som ska hjälpa dig att bilda en god kunskapsbas för att bygga vidare på i nästa nivå. Du kan med fördel gå vidare med enskilda delar även om du inte tagit dig igenom alla områden för din befintliga nivå. Tänk dock på att du får en bättre helhetsbild om du genomför alla områden innan du fortsätter. Det kan göra att du blir mer uppmärksam eller förstår vissa detaljer bättre längre fram.</p>
+                        <p>Guiden är ett levande dokument och kommer uppdateras kontinuerligt. Om du har egna åsikter eller önskemål är det fritt fram att skapa en issue, men se till att tagga den med <strong>improvement</strong> om det är förbättringsförslag eller <strong>invalid</strong> om det är något som inte är korrekt.</p>
+                    </section>
+
+                    <section class="mb3">
+                        {% include categories.html %}
+                    </section>
+
+                    <section class="mb3">
+                        <h2>Contributors</h2>
+                        {% include contributors.html %}
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        {% include footer.html %}
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="http://sigmaitc.github.io/js/materialize.min.js"></script>
+    </body>
+</html>
