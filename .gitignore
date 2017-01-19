@@ -8,7 +8,7 @@ bower_components/
 
 # Node.js
 node_modules/*
-!node_modules/@sigma/github-kit
+!node_modules/@sigma/github-kit/_includes
 npm-debug.log
 
 # Other
